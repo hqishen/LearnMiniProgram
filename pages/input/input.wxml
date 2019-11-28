@@ -1,0 +1,19 @@
+<!--pages/input/input.wxml-->
+
+<input ></input>
+<!-- 2. value -->
+<input value="sundae" ></input>
+<!-- 3 type: 决定键盘的类型 （英文字母，其他符号 ， 数字，身份证）-->
+<input type="number" />
+
+<!-- 4 ,password：暗文 -->
+<input type="password"></input>
+<input password/>
+
+<!-- 5，占位符 -->
+<input placeholder="请输入内容"/>
+
+<!-- 6,事件绑定 -->
+<input bindinput="handleInput"> </input>
+<input bindfocus="handleFocus"> </input>
+<input bindblur="handleBlur"></input>
