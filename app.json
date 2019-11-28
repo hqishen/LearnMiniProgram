@@ -1,9 +1,9 @@
 {
   "pages": [
-      "pages/input/input",
+    "pages/scroll/scroll",
+    "pages/input/input",
     "pages/home/home",
     "pages/about/about"
-  
   ],
   "usingComponents": {
     "my-cpn": "/components/my-cpn/my-cpn"
