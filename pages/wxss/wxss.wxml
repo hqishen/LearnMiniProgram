@@ -1,0 +1,14 @@
+<!--pages/wxss/wxss.wxml-->
+<!-- 1.设置样式的三种方式 -->
+<!-- 1.1 行内样式（内联） -->
+<view style="color: red;font-size:40px;">
+  测试样式
+</view>
+
+<!-- 1.2页内样式 -->
+<view class='box'>
+测试2
+</view>
+
+<!-- 1.3全局样式 -->
+<view class='container'> 测试3 </view>
