@@ -1,4 +1,5 @@
 /* pages/wxss/wxss.wxss */
+@import './wxss/weui-searchbar.wxss'
 .box {
   color: blue;
   font-size: 40px;
