@@ -1,0 +1,11 @@
+<!--pages/wxml/wxml.wxml-->
+<!-- <text>pages/wxml/wxml.wxml</text> -->
+ <!-- mustache 语法 -->
+ <view> {{message}}</view>
+<view> {{firstName + ' ' + age }}</view>
+<view> {{ age > 18 ? '成年人' : '未成年人'}}</view>
+<view>"Now time {{nowTime}}"</view>
+<view class='viewCon {{isColor? "active": ""}}' >{{message}}</view>
+<button size='mini' bindtap="handleSwitchColor">
+  切换颜色
+</button>

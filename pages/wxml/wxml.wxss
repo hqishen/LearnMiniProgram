@@ -1,0 +1,7 @@
+/* pages/wxml/wxml.wxss */
+.viewCon {
+  font-size: 60rpx;
+}
+.active{
+  color:red;
+}
