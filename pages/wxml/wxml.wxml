@@ -9,3 +9,19 @@
 <button size='mini' bindtap="handleSwitchColor">
   切换颜色
 </button>
+
+
+<view>-----------------列表渲染------------</view>
+<!-- 1 wx:for  -->
+<!-- 2 遍历数组/字符串/数字 -->
+<view wx:for="{{['abc', 'bcd', 'cba']}}"> {{item}} {{index}}</view>
+<view wx:for="{{'sundae'}}">{{item}} {{index}} </view>
+<view wx:for="{{9}}"> {{item}} {{index}}</view>
+
+
+<!-- 3 block标签 -->
+<block wx:for="{{3}}">
+  <button> button </button>
+  <view> sundae</view>
+  <text> i'm sundae </text>
+</block>
